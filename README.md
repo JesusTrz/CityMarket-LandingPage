@@ -16,6 +16,7 @@ Una Landing Page moderna, minimalista y totalmente responsiva diseñada para con
 ---
 
 ## 📸 Capturas de Pantalla
+<img width="1902" height="915" alt="Image" src="https://github.com/user-attachments/assets/c640463f-bede-478d-9a71-c99a6860ae8b" />
 
 <img width="1898" height="913" alt="Image" src="https://github.com/user-attachments/assets/f8dd2f8e-7299-4eeb-b049-3785b7124276" />
 
