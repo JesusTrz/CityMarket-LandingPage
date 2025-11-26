@@ -15,11 +15,13 @@ Una Landing Page moderna, minimalista y totalmente responsiva diseñada para con
 
 ---
 
-## 📸 Vista Previa
+## 📸 Capturas de Pantalla
 
-![Vista Desktop y Mobile](./assets/screenshot-preview.png)
+<img width="1898" height="913" alt="Image" src="https://github.com/user-attachments/assets/f8dd2f8e-7299-4eeb-b049-3785b7124276" />
 
-> *Vista del diseño en escritorio y dispositivo móvil.*
+<img width="1898" height="912" alt="Image" src="https://github.com/user-attachments/assets/ef192e34-10a7-45fd-b402-369f7bab4e93" />
+
+<img width="1900" height="915" alt="Image" src="https://github.com/user-attachments/assets/f5302619-3cfc-438b-87f3-6b7f9229b4ad" />
 
 ---
 
