@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background-image: url("../assets/img/bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.nav-menu {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-menu nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+}
+
+.nav-menu h1 {
+    margin: 0;
+    filter: drop-shadow(0 0 0.6vh white);
+}
+
+.nav-menu nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nav-menu nav li {
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-menu nav li:hover {
+    filter: drop-shadow(0 0 1vh white);
+    transform: translateY(-0.6vh)
+}
+
+.main-view {
+    padding-top: 20vh;
+}
+
+.main-container {
+    max-width: 90vh;
+    margin-left: 10vh;
+    margin-bottom: 25vh;
+}
+
+.main-container h1 {
+    font-size: 6vh;
+}
+
+.main-container p {
+    text-align: justify;
+    line-height: 5vh;
+    font-size: 3vh;
+}
+
+.btn-contact {
+    background: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.btn-contact:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+.brands {
+    margin: 0 10vh;
+}
+
+.brands h2 {
+    margin-bottom: 6vh;
+}
+
+.brands-container {
+    display: flex;
+    margin-bottom: 20vh;
+}
+
+.brands-cards {
+    background: #0A0A0A;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 0;
+    padding: 2vh;
+    margin: 0 2vh;
+    border-radius: 5vh;
+    transition: all 0.2s ease-in;
+}
+
+.brands-cards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 0 rgb(76, 76, 76);
+}
+
+.brands-cards img {
+    width: 80px;
+}
+
+.testimonies {
+    margin: 0 10vh;
+}
+
+.testimonies-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Exactamente 2 columnas */
+    gap: 24px;
+    /* El espacio entre tus cards */
+}
+
+.testimonies-card {
+    display: flex;
+    border: 2px solid white;
+    padding-left: 20px;
+    border-radius: 100px;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.testimonies-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.text-testimonie {
+    padding-left: 20px;
+}
+
+.text-testimonie h3 {
+    margin: 0;
+    /* QUITA EL ESPACIO SUPERIOR E INFERIOR */
+    font-size: 1rem;
+    /* Ajuste de tamaño para jerarquía */
+    font-weight: bold;
+    margin-bottom: 4px;
+    /* Solo un pequeño respiro antes del texto */
+    line-height: 1.2;
+}
+
+.text-testimonie p {
+    margin: 0;
+    /* QUITA EL ESPACIO DEL PÁRRAFO */
+    font-size: 0.9rem;
+    /* Un gris oscuro es más fácil de leer que negro puro */
+    line-height: 1.4;
+}
+
+.benefits {
+    margin: 100px 10vh;
+}
+
+.benefits-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.benefits-card {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #1B1B1B;
+    align-items: center;
+    gap: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.benefits-card:hover {
+    transform: scale(1.03)
+}
+
+.benefits-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.benefits-card h3 {
+    margin: 0;
+    /* QUITA EL ESPACIO SUPERIOR E INFERIOR */
+    font-size: 1rem;
+    /* Ajuste de tamaño para jerarquía */
+    font-weight: bold;
+    margin-bottom: 4px;
+    /* Solo un pequeño respiro antes del texto */
+    line-height: 1.2;
+}
+
+.benefits-card p {
+    margin: 0;
+    /* QUITA EL ESPACIO DEL PÁRRAFO */
+    font-size: 0.9rem;
+    /* Un gris oscuro es más fácil de leer que negro puro */
+    line-height: 1.4;
+}
+
+.contact {
+    margin: 100px 10vh;
+}
+
+.steps-container {
+    display: flex;
+    gap: 60px;
+}
+
+.steps-card h3 {
+    margin: 0;
+    /* QUITA EL ESPACIO SUPERIOR E INFERIOR */
+    font-size: 1rem;
+    /* Ajuste de tamaño para jerarquía */
+    font-weight: bold;
+    margin-bottom: 4px;
+    /* Solo un pequeño respiro antes del texto */
+    line-height: 1.2;
+}
+
+.steps-card p {
+    margin: 0;
+    /* QUITA EL ESPACIO DEL PÁRRAFO */
+    font-size: 0.9rem;
+    /* Un gris oscuro es más fácil de leer que negro puro */
+    line-height: 1.4;
+}
+
+.steps-card {
+    padding: 20px 30px;
+    border-radius: 40px;
+    border: 1px solid white;
+    text-align: justify;
+    transition: all 0.2s ease-in;
+}
+
+.steps-card:hover {
+    background: white;
+    color: black;
+}
+
+.formulario {
+    margin: 100px 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.form-container {
+    background-color: transparent;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    /* Ancho máximo para que no se vea gigante en PC */
+    border-radius: 12px;
+    border: 1px solid gray;
+    /* Bordes redondeados */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    /* Sombra elegante */
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* 3. ESTILO DE LOS CAMPOS (INPUTS) */
+.form-group {
+    margin-bottom: 20px;
+    /* Espacio entre cada campo */
+}
+
+label {
+    display: block;
+    /* Pone la etiqueta arriba del input */
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    background: #1B1B1B;
+    color: white;
+    /* Ocupa todo el ancho disponible */
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    box-sizing: border-box;
+    /* Asegura que el padding no rompa el ancho */
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al hacer clic en un campo */
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+/* 4. ESTILO DEL BOTÓN */
+.button-submit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-submit button {
+    width: 100%;
+    padding: 14px;
+    background-color: transparent;
+    /* Azul moderno */
+    color: white;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: gray;
+    color: black;
+}
