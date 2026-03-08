@@ -1,4 +1,4 @@
-# 🚀 Landing Page - CityMarket
+# Landing Page - CityMarket
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 
@@ -6,7 +6,7 @@ Una Landing Page moderna, minimalista y totalmente responsiva diseñada para con
 
 ---
 
-## 🎨 Características
+## Características
 
 * **CSS Moderno:** Uso de Flexbox y CSS Grid para el layout.
 * **Código Semántico:** Estructura HTML optimizada para SEO y accesibilidad.
@@ -15,7 +15,7 @@ Una Landing Page moderna, minimalista y totalmente responsiva diseñada para con
 
 ---
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 <img width="1902" height="915" alt="Image" src="https://github.com/user-attachments/assets/c640463f-bede-478d-9a71-c99a6860ae8b" />
 
 <img width="1898" height="913" alt="Image" src="https://github.com/user-attachments/assets/f8dd2f8e-7299-4eeb-b049-3785b7124276" />
