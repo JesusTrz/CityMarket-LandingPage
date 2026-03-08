@@ -4,6 +4,8 @@
 
 Una Landing Page moderna, minimalista y totalmente responsiva diseñada para convertir visitantes en clientes. Construida con **HTML5 semántico** y **CSS3 puro** (sin frameworks pesados), asegurando una carga ultrarrápida y un código limpio.
 
+Edit. LandingPage refactorizada y reestructurada con Antigravity como prueba de IDE.
+
 ---
 
 ## Características
